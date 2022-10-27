@@ -1,0 +1,7 @@
+Oso SI SI SI NO
+Lechuza NO SI NO NO
+Venado SI NO SI NO
+Zebra SI NO SI SI
+Paloma NO NO NO NO
+Conejo SI NO NO NO
+Tigre SI SI SI SI

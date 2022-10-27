@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="estructuradatos.grupo_04.VentanaPreguntaController">
+   <children>
+      <VBox alignment="BOTTOM_CENTER" layoutX="2.0" prefHeight="189.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="70.0" prefWidth="214.0" text="¿Quieres empezar esta partida?" />
+         </children>
+      </VBox>
+      <VBox layoutY="209.0" prefHeight="142.0" prefWidth="602.0">
+         <children>
+            <GridPane>
+              <columnConstraints>
+                <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="buttonSi" mnemonicParsing="false" onMouseClicked="#botonSi" text="SI">
+                     <GridPane.margin>
+                        <Insets right="50.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="buttonNo" mnemonicParsing="false" onMouseClicked="#botonNo" text="NO" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets left="50.0" />
+                     </GridPane.margin>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </GridPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

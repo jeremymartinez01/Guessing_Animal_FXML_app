@@ -1,0 +1,4 @@
+Oso SI SI SI 
+Lechuza NO SI NO 
+Venado SI NO SI 
+Paloma NO NO NO 
